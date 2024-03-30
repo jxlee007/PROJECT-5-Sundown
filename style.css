@@ -573,6 +573,12 @@ footer h1 {
     font-size: 1.3vw;
 }
 
+#main {
+        z-index: 10;
+        position: relative;
+        background-color: #000;
+}
+
 #full-scr {
     height: 100vh;
     width: 100%;
@@ -595,11 +601,7 @@ footer h1 {
 
 @media (max-width:768px) {
 
-    /* #main {
-        z-index: 10;
-        position: relative;
-        background-color: #000;
-    } */
+
 
     #page1 {
         min-height: 100vh;

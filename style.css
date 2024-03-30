@@ -576,7 +576,7 @@ footer h1 {
 #main {
         z-index: 10;
         position: relative;
-        background-color: #000;
+        /* background-color: #000; */
 }
 
 #full-scr {

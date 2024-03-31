@@ -6,6 +6,7 @@ const locoScroll = new LocomotiveScroll({
 swiper = () => {
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
+        loop: true,
         centeredSlides: true,
         spaceBetween: 100,
     });

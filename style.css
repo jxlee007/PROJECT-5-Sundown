@@ -490,6 +490,7 @@ footer {
     justify-content: flex-end;
     flex-direction: column;
     padding: 1.5vw 3vw;
+    z-index: 15;
 }
 
 #foottop {
@@ -536,6 +537,11 @@ footer {
     border-bottom: 1px solid lightgray;
     border: none;
     text-decoration: none;
+    color: #EFEAE3;
+}
+
+#foottop span input[type=email]:focus-visible{
+    outline: none;
 }
 
 #foottop span input[type=submit] {
@@ -592,6 +598,7 @@ footer h1 {
     z-index: 15;
     top: -100%;
     transition: all ease 0.8s;
+    opacity: 0;
 }
 
 #full-div1 {
@@ -935,13 +942,13 @@ footer h1 {
     }
 
     #page6{
-        max-height: 60vh;
+        max-height: 90vh;
         width: 100%;
     }
 
     footer {
         position: fixed;
-        height: 60vh;
+        height: 90vh;
         width: 100%;
         background-color: #000;
         color: #fff;
@@ -980,7 +987,7 @@ footer h1 {
     
     #foottop span a {
         padding-left: 5vw;
-        font-size: 5vw;
+        font-size: 10vw;
         color: #efeae3;
         text-decoration: none;
     }

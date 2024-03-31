@@ -71,16 +71,18 @@ menu = ()=> {
     var close = document.querySelector("#close")
     menu.addEventListener("click", function () {
             full.style.top = 0
+            full.style.opacity = 1
             navimg.style.opacity = 0
     })
 
     close.addEventListener("click", function(){
         full.style.top = "-100%"
+        full.style.opacity = 0
         navimg.style.opacity = 1
     })
 }
 menu();
-
+// --------------------------------------------------------
 
 loader = ()=> {
     var loader = document.querySelector("#loader")

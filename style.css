@@ -434,23 +434,27 @@ nav h3{
 }
 
 .cntpart2 {
-    background-image: url(https://raw.githubusercontent.com/jxlee007/PROJECT-5-Sundown/main/media/p1.webp);
+    background-image: url('https://raw.githubusercontent.com/jxlee007/PROJECT-5-Sundown/main/media/p1.webp');
     width: 55%;
     background-size: cover;
     background-position: center;
 }
 
 #page5 {
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     background-color: #EFEAE3;
     padding: 10vw 2vw;
     position: relative;
+
 }
 
 .swiper {
     width: 100%;
     height: 100%;
+}
+.swiper::selection {
+    color: transparent;
 }
 
 .swiper-slide {
@@ -469,7 +473,7 @@ nav h3{
 }
 
 #page6 {
-    min-height: 110vh;
+    height: 110vh;
     width: 100%;
 }
 
@@ -514,6 +518,7 @@ footer {
     padding-left: 5vw;
     font-size: 2.5vw;
     color: #efeae3;
+    z-index: 15;
     text-decoration: none;
 }
 
@@ -584,8 +589,7 @@ footer h1 {
     width: 100%;
     background-color: #00000070;
     position: absolute;
-    /* position: fixed; */
-    z-index: 95;
+    z-index: 15;
     top: -100%;
     transition: all ease 0.8s;
 }
@@ -596,23 +600,52 @@ footer h1 {
     background-color: #EFEAE3;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 5vw;
 }
+
+#full-div1 h1{
+    font-size: 18vw;
+    padding: .5vw 5vw;
+}
+
+#full-div1  #close {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1.5vw 4vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    font-size: 7.5vw;
+    font-weight: 100;
+}
+
 
 @media (max-width:768px) {
 
 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html , body{
+        max-height: fit-content;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
 
     #page1 {
         min-height: 100vh;
-        width: 100vw;
+        width: 100%;
         padding: 0 0vw;
     }
 
     nav {
         padding: 8vw 5vw;
         background-color: #EFEAE3;
-        z-index: 100;
     }
 
     nav img {
@@ -635,9 +668,6 @@ footer h1 {
         z-index: 100;
     }
 
-    #full-scr{
-        z-index: 95;
-    }
 
     #center {
         height: 65vh;
@@ -868,7 +898,7 @@ footer h1 {
     }
     
     .cntpart2 {
-        background-image: url(./p1.webp);
+        background-image: url(https://raw.githubusercontent.com/jxlee007/PROJECT-5-Sundown/main/media/p1.webp);
         height: 60%;
         width: 100%;
         background-size: cover;
@@ -905,7 +935,7 @@ footer h1 {
     }
 
     #page6{
-        height: 60vh;
+        max-height: 60vh;
         width: 100%;
     }
 
@@ -1040,7 +1070,7 @@ footer h1 {
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
-    animation-name: load 1s 1s linear;
+    animation: load 1s 1s linear;
 }
 #loader h1:nth-child(2){
     animation-delay: 2s;
@@ -1067,6 +1097,5 @@ footer h1 {
 @media (max-width:600px) {
     #loader h1{
         font-size: 9vw;
-      
     }
 }

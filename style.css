@@ -434,7 +434,7 @@ nav h3{
 }
 
 .cntpart2 {
-    background-image: url(./p1.webp);
+    background-image: url(https://raw.githubusercontent.com/jxlee007/PROJECT-5-Sundown/main/media/p1.webp);
     width: 55%;
     background-size: cover;
     background-position: center;
@@ -1040,10 +1040,7 @@ footer h1 {
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
-    animation-name: load;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-timing-function: linear;
+    animation-name: load 1s 1s linear;
 }
 #loader h1:nth-child(2){
     animation-delay: 2s;

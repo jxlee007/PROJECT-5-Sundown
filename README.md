@@ -22,16 +22,6 @@ The Sundown Studio portfolio website is a showcase of unique experiences and env
 ## Responsive Design
 The website is designed to be responsive, ensuring a seamless and enjoyable user experience across various devices. Media queries are employed to adjust styles for small screens.
 
-## Screenshots
-
-![Screenshot 1]()
-![Screenshot 2]()
-![Screenshot 3]()
-![Screenshot 4]()
-![Screenshot 5]()
-![Screenshot 6]()
-
-
 ## How to Use
 1. Clone the repository.
 2. Open the `index.html` file in a web browser to explore the website.

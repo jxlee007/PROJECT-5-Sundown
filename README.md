@@ -33,4 +33,4 @@ The website is designed to be responsive, ensuring a seamless and enjoyable user
 - **Remixicon:** [https://remixicon.com/](https://remixicon.com/)
 
 ## Author
-Jagmohan Singh Malhi
+[Jagmohan Singh Malhi](https://www.linkedin.com/in/jagmohan-singh-malhi-a67805243/)
